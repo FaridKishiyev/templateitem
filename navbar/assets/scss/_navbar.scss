@@ -1,0 +1,35 @@
+header {
+  background-color: rgb(221, 219, 219);
+  nav {
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .nav-menu {
+        display: flex;
+      }
+    }
+  }
+}
+.nav-items {
+  display: flex;
+  .nav-item {
+    padding: 5px 10px;
+    a {
+      text-decoration: none;
+      color: gray;
+    }
+  }
+  .nav-item:hover {
+    cursor: pointer;
+    a {
+      color: rgb(44, 43, 43);
+    }
+  }
+}
+.burger-open {
+  display: none;
+}
+.burger-closed {
+  display: none;
+}

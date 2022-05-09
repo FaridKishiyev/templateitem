@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.tabmenu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.tabmenu-item {
+  width: 70px;
+  padding: 10px;
+}
+
+p {
+  border-top: 1px solid black;
+  display: none;
+}
